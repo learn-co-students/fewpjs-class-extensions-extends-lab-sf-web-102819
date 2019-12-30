@@ -1,10 +1,11 @@
-let circle;
-let triangle;
-let square;
+// let circle;
+// let triangle;
+// let square;
 
 
 
 describe( "Polygon", () => {
+  let polygon
   beforeEach( () => {
     polygon = new Polygon( [ 5, 5, 5 ] )
   } )
